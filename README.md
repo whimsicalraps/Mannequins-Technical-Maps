@@ -2,12 +2,12 @@
 
 Technical Maps for Whimsical Raps' Mannequins Eurorack Modules
 
-Feel free to grab printable PDFs for your desired modules, or clone the repository and make your own customizations to the manuals using Markdown or LaTeX!
+Feel free to grab printable PDFs for your desired modules, or clone the repository and make your own customizations to the manuals using Markdown or LaTeX!  Hyperlinked, mobile friendly versions of the manuals are also linked below!
 
 MANGROVE
 
 - [PDF](./mangrove/mangrove.pdf)
-- [Hyperlinked Markdown](./mangrove/mangrove.md)
+- [Hyperlinked Web Document](./mangrove/mangrove.md)
 
 
 ## Customizing Your Manual
