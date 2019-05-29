@@ -45,7 +45,7 @@ Feel free to grab printable PDFs for your desired modules, or clone the reposito
 
 1. Clone this repository using `git clone` or download this repository as a .zip and unpack it.
 2. Navigate to the directory of the module you wish to edit.
-3. Make your own personal changes `<module-name>.md` to include your customizations!  Sticking with [Markdown](https://www.markdownguide.org/basic-syntax/) formatting is easiest, but Pandoc supports many other formatting methods!
+3. Make your own personal changes to `<module-name>.md` to include your customizations!  Sticking with [Markdown](https://www.markdownguide.org/basic-syntax/) formatting is easiest, but Pandoc supports many other formatting methods!
 4. Run `pandoc <module-name>.md --metadata-file=metadata.md --filter myfilter.py -o <module-name>.pdf` to generate of your new manual!
 
 *NB: Font, paper size, and line spacing settings can be edited in `metadata.md`.*
