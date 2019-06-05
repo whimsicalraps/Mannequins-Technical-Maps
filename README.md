@@ -6,12 +6,6 @@ Feel free to grab printable PDFs for your desired modules, or clone the reposito
 
 *MANGROVE*: [PDF](./mangrove/mangrove.pdf) & [Hyperlinked Web Document](./mangrove/mangrove.md)
 
-*JUST FRIENDS*: Coming soon!
-
-*COLD MAC*: Coming soon!
-
-*THREE SISTERS*: Coming soon!
-
 
 
 ## Customizing Your Manual
