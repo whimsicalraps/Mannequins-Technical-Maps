@@ -6,6 +6,8 @@ Feel free to grab printable PDFs for your desired modules, or clone the reposito
 
 *MANGROVE*: [PDF](./mangrove/mangrove.pdf) & [Hyperlinked Web Document](./mangrove/mangrove.md)
 
+*JUST FRIENDS*: [PDF](./just-friends/just-friends.pdf) & [Hyperlinked Web Document](./just-friends/just-friends.md)
+
 
 
 ## Customizing Your Manual
