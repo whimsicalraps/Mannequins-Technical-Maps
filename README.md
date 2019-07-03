@@ -10,7 +10,7 @@ Feel free to grab printable PDFs for your desired modules, or clone the reposito
 
 *COLD MAC*: [PDF](./cold-mac/cold-mac.pdf) & [Hyperlinked Web Document](./cold-mac/cold-mac-web.md)
 
-*COLD MAC*: [PDF](./three-sisters/three-sisters.pdf) & [Hyperlinked Web Document](./three-sisters/three-sisters-web.md)
+*THREE SISTERS*: [PDF](./three-sisters/three-sisters.pdf) & [Hyperlinked Web Document](./three-sisters/three-sisters-web.md)
 
 ## 
 
