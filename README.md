@@ -8,7 +8,7 @@ Feel free to grab printable PDFs for your desired modules, or clone the reposito
 
 *JUST FRIENDS*: [PDF](./just-friends/just-friends.pdf) & [Hyperlinked Web Document](./just-friends/just-friends.md)
 
-
+*COLD MAC*: [PDF](./cold-mac/cold-mac.pdf) & [Hyperlinked Web Document](./cold-mac/cold-mac-web.md)
 
 ## Customizing Your Manual
 
