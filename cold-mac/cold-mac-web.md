@@ -24,8 +24,8 @@ COLD MAC is a swiss army knife or a centerpiece, a jack of *all* trades or a mas
 
 ##### Logic
 
-[Or](#orand-analog-minmax-and-digital-logic) / [And](#orand-analog-minmax-and-digital-logic) / [Not](#extended-logic) / [Nor](#extended-logic) / [Nand](#extended-logic) / [Xor](#extended-logic)  
-[Min](#orand-analog-minmax-and-digital-logic) / [Max](#orand-analog-minmax-and-digital-logic)  
+[Or](#orand-analog-maxmin-and-digital-logic) / [And](#orand-analog-maxmin-and-digital-logic) / [Not](#extended-logic) / [Nor](#extended-logic) / [Nand](#extended-logic) / [Xor](#extended-logic)  
+[Min](#orand-analog-maxmin-and-digital-logic) / [Max](#orand-analog-maxmin-and-digital-logic)  
 [Halfwave Rectification](#halfwave-rectification)  
 [Logical Mixing](#logical-mixing)  
 [Logical Crossfading](#logical-crossfading)  
@@ -57,7 +57,7 @@ COLD MAC is a swiss army knife or a centerpiece, a jack of *all* trades or a mas
 3. [Block Diagrams](#block-diagram)
 4. [SURVEY: Macro Control](#survey-macro-control)
 5. [LEFT/RIGHT/FADE: Crossfader/Panner](#leftrightfade-crossfader-panner)
-6. [OR/AND: Analog Min/Max and Digital Logic](#orand-analog-minmax-and-digital-logic)
+6. [OR/AND: Analog Max/Min and Digital Logic](#orand-analog-maxmin-and-digital-logic)
 7. [SLOPE: Fullwave Rectification](#slope-fullwave-rectification)
 8. [FOLLOW: Envelope Follower and Slew Limiting](#follow-envelope-follower-and-slew-limiting)
 9. [CREASE: Waveslicer](#crease-waveslicer)
@@ -243,9 +243,9 @@ The panning functionality can be paired with the *[MAC]* mixer to set up a pre-f
 You will want to make sure *FADE* has been decoupled by *SURVEY* by either using a dummy cable or using *CV* to control the level of the dry signal.  *SURVEY* will control the level of the input signal sent to the processing chain (pre-*FADE*) via the *MAC* mixer.  The processed signal returns and is added back in via *OFFSET*.  Additional signal can be added to the send loop via the other inputs in the left row.  
 
 
-## OR/AND: Analog Min/Max and Digital Logic
+## OR/AND: Analog Max/Min and Digital Logic
 
-*OR* implements analog minimum while *AND* implements analog maximum.  The first input of the *OR* block is normalled into the first input of the *AND* block to easily find the min and max of the same signal.  *SURVEY* is normalled into the second input of both blocks to set the comparison level for both functions together. 
+*OR* implements analog maximum while *AND* implements analog minimum.  The first input of the *OR* block is normalled into the first input of the *AND* block to easily find the min and max of the same signal.  *SURVEY* is normalled into the second input of both blocks to set the comparison level for both functions together. 
 
 ![Logic block](./graphics/block_diagram_logic.png)
 
