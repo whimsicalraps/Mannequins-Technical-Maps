@@ -305,7 +305,7 @@ To split an external CV source between two outputs, patch it to *OR1* (it will c
 
 ### Halfwave Rectification
 
-By patching a signal into *OR1* (and thus AND1 via the normalled connection as well), the *SURVEY* knob (via normalling into *OR2* and *AND2*) becomes a threshold control for halfwave rectification - the "positive" half of the wave will appear at OR1, while the "negative" half of the wave will appear at AND1 (where "positive" is taken to mean exceeding the threshold and "negative" is taken to mean falling below the threshold).  This technique can be useful when an input expects unipolar modulation or gates. 
+By patching a signal into *OR1* (and thus *AND1* via the normalled connection as well), the *SURVEY* knob (via normalling into *OR2* and *AND2*) becomes a threshold control for halfwave rectification - the "positive" half of the wave will appear at *OR(OUT)*, while the "negative" half of the wave will appear at *AND(OUT)* (where "positive" is taken to mean exceeding the threshold and "negative" is taken to mean falling below the threshold).  This technique can be useful when an input expects unipolar modulation or gates. 
 
 When used with audio, slicing the audio signal has the effect of adding harmonics due to the flat edges created.  Adjusting the slicing threshold will affect both the timbre and the amplitude of the heard sound.  If the input audio is a square wave, these blocks can act as simple VCAs with opposite polarities.  Try a variety of sound sources and see how adjusting the threshold affects the timbre and loudness.
 
